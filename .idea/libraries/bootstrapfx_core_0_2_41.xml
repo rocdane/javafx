@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="bootstrapfx-core-0.2.41">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resources/lib/bootstrapfx-core-0.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/lib/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/lib/commons-collections4-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/lib/commons-digester-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/lib/fontawesomefx-8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/lib/groovy-all_2.4.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/lib/h2-1.4.199.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/lib/jasper-jdt-7.0.3.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/lib/jasperreports-6.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/lib/jfoenix-9.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/lib/postgresql-42.2.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/lib/mssql-jdbc-9.2.1.jre8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

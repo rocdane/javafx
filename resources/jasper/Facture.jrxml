@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.12.2.final using JasperReports Library version 6.12.2-75c5e90a222ab406e416cbf590a5397028a52de3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Facture" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="7d3caefc-7144-4ce9-b458-16e81beea9a6">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="numero" class="java.lang.String"/>
+	<field name="raisonsociale" class="java.lang.String"/>
+	<field name="description" class="java.lang.String"/>
+	<field name="montant" class="java.lang.Integer"/>
+	<field name="honoraire" class="java.lang.Integer"/>
+	<field name="periode" class="java.lang.Integer"/>
+	<field name="aib" class="java.lang.Integer"/>
+	<field name="calc_aib" class="java.lang.Integer"/>
+	<field name="tva" class="java.lang.Integer"/>
+	<field name="calc_tva" class="java.lang.Integer"/>
+	<field name="montantttc" class="java.lang.Integer"/>
+	<field name="montantlettre" class="java.lang.String"/>
+	<field name="date" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="78" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="525" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="80" width="130" height="14" uuid="3c860fe6-f385-4977-a695-b9e404c7d633"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[ADAM Boukari]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="94" width="130" height="14" uuid="181a9774-c7a5-43d2-92b0-30d0274b1455"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[Collaborateur Juriste]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="15" width="130" height="14" uuid="c74659d9-e866-4329-bcf2-6ac1fdfc4fa4"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[GASSI A. K. Irené]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="66" width="130" height="14" uuid="91820d4e-fb15-4950-92d5-3852de9e44dd"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[LOKO W. Arno]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="29" width="130" height="14" uuid="d12c6b4e-9360-4947-b7e9-a9b4919817fb"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[DEGUENON A. Armand]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="1" width="130" height="14" uuid="7599b001-6937-4716-b7b7-380c39dea9a2"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[BABA BODY Zakari]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="43" width="130" height="14" uuid="f8adcf0b-1a8f-48c3-b22d-1f7ba9960eb2"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[Avocats à la Cour]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="0" width="70" height="14" uuid="f001c004-05aa-4471-8371-d5ebb84de1d7"/>
+				<textElement>
+					<font fontName="SansSerif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cotonou, le]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="150" width="190" height="20" uuid="78222ffc-9836-4259-a5ed-98325445f29e"/>
+				<textElement>
+					<font fontName="SansSerif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Numéro IFU : 120 140 040 180 6]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="176" y="191" width="72" height="20" uuid="4d3de31b-6962-46ab-8965-a3c0f23967db"/>
+				<textElement>
+					<font fontName="SansSerif" size="12" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[FACTURE N° ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="176" y="216" width="50" height="20" uuid="5ea8871d-c282-43d8-a642-0a775969ee13"/>
+				<textElement>
+					<font fontName="SansSerif" size="12" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[CLIENT :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="251" width="168" height="18" uuid="9dd98dab-1ddc-44b4-8d42-c6924f79a58d"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[Honoraires de représentation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="330" width="50" height="20" uuid="b0c1c14c-dbf7-4980-8e66-275a7642dca0"/>
+				<textElement>
+					<font fontName="SansSerif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Montant]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="371" width="120" height="20" uuid="881a402a-80d1-46a1-9da3-73341f95dbb1"/>
+				<textElement>
+					<font fontName="SansSerif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Prélèvement de l'AIB]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="409" width="30" height="20" uuid="64ee0cbe-83f6-4528-89b9-d250ac3d467e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TVA :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="443" width="70" height="20" uuid="fc103d7b-3209-47c8-99b2-885fa5d97bb7">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TOTAL TTC :]]></text>
+			</staticText>
+			<line>
+				<reportElement x="460" y="432" width="84" height="1" uuid="8a24fc23-bc4d-4af4-9402-50d930560782"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="160" y="456" width="269" height="1" uuid="d5d5274b-dfc2-4cfa-aef7-10b1c2f0d071"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="160" y="423" width="269" height="1" uuid="2e77f5af-487d-4d96-9559-429298b54b6c"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="160" y="385" width="269" height="1" uuid="b9d9060c-a601-4e87-a439-8545e67a960c"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="160" y="347" width="269" height="1" uuid="d9e8813a-e207-4ed3-8e74-7181d38637d1"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="228" y="216" width="164" height="20" uuid="a2db3e33-7431-4f59-b56e-1c914ec60e9f"/>
+				<textElement>
+					<font fontName="SansSerif" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{raisonsociale}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="251" y="191" width="150" height="20" uuid="b92118b0-b1b5-442a-ab4e-41e568a67827"/>
+				<textElement>
+					<font fontName="SansSerif" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numero}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="442" width="144" height="20" uuid="e596aad6-e267-4d14-afc2-f93bf4436af9">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="SansSerif" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{montantttc}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="422" y="0" width="108" height="14" uuid="8881d8fc-0b20-4b58-bd25-cbcf4ab006d5"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="331" width="145" height="20" uuid="365b2423-b55f-4fc8-8f67-52041ee6dad9">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="SansSerif" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{montant}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement x="10" y="482" width="535" height="30" uuid="b6650a62-ca79-44a3-ba8d-188c055a4930"/>
+				<textElement>
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ARRETEE LA PRESENTE FACTURE A LA SOMME DE "+$F{montantlettre}.toUpperCase()+" ( "+$F{montantttc}+" ) FRANCS CFA TTC"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="43" y="409" width="100" height="20" uuid="1f2e2c29-78bd-40eb-8586-0c780fbe3fd0">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["( " +$F{tva}  + " % )"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="133" y="371" width="125" height="20" uuid="f399647d-96ef-491a-8b70-5722bf6cd936">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["( " +$F{aib}  + " % )"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="10" y="290" width="534" height="30" uuid="6d4b157a-d1d8-4a29-9c1b-64503bf400a4"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{description}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="63" y="330" width="285" height="20" uuid="b1e3f9ef-50f9-44c2-93ba-e0df71916897">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["("+$F{honoraire}+" x "+$F{periode}+")"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="371" width="145" height="20" uuid="6694fa56-3b5f-479f-99b7-cdac7524427c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="SansSerif" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{calc_aib}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="410" width="145" height="20" uuid="0aec4b2a-c8b9-43ec-a2bc-382c42d0e8d2">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="SansSerif" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{calc_tva}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="50" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="51" splitType="Stretch"/>
+	</detail>
+	<pageFooter>
+		<band height="34" splitType="Stretch"/>
+	</pageFooter>
+</jasperReport>

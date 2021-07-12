@@ -1,0 +1,98 @@
+#info{
+
+}
+
+.btn-blue{
+	-fx-background-color: #007BFF;
+}
+
+.btn-new{
+    -fx-background-color: transparent;
+}
+.btn-new:hover{
+    -fx-background-color: #48c8ef;
+}
+
+.btn-save{
+    -fx-background-color: transparent;
+}
+.btn-save:hover{
+    -fx-background-color: #a5eb78;
+}
+
+.btn-cancel{
+    -fx-background-color: transparent;
+}
+.btn-cancel:hover{
+    -fx-background-color: #f44336;
+}
+
+.btn-delete{
+    -fx-background-color: transparent;
+}
+.btn-delete:hover{
+    -fx-background-color: #b39ddb;
+}
+
+.btn-edit{
+    -fx-background-color: transparent;
+}
+.btn-edit:hover{
+    -fx-background-color: #2ccbfe;
+}
+
+.btn-print{
+    -fx-background-color: transparent;
+}
+.btn-print:hover{
+    -fx-background-color: #9cc2d0;
+}
+
+.btn-menu{
+	-fx-background-color: transparent;
+}
+.btn-menu:hover{
+	-fx-background-color: azure;
+}
+
+.ico-client{
+	-fx-background-color: transparent;
+}
+.ico-client:hover{
+	-fx-background-color: #f7caa5;
+}
+
+.ico-avocat{
+	-fx-background-color: transparent;
+}
+.ico-avocat:hover{
+	-fx-background-color: darkgray;
+}
+
+.ico-affaire{
+	-fx-background-color: transparent;
+}
+.ico-affaire:hover{
+	-fx-background-color: wheat;
+}
+
+.ico-archive{
+	-fx-background-color: transparent;
+}
+.ico-archive:hover{
+	-fx-background-color: khaki;
+}
+
+.ico-proforma{
+	-fx-background-color: transparent;
+}
+.ico-proforma:hover{
+	-fx-background-color: yellowgreen;
+}
+
+.ico-about{
+	-fx-background-color: transparent;
+}
+.ico-about:hover{
+	-fx-background-color: lightblue;
+}

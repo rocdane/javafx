@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="content" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="970.0" style="-fx-background-color: #cee3ea;" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+      <AnchorPane layoutX="-14.0" prefHeight="535.0" prefWidth="970.0">
+         <children>
+            <TextArea editable="false" layoutX="183.0" layoutY="139.0" prefHeight="307.0" prefWidth="552.0" text="                                                  Cabinet d'Avocat BABA BODY&#10;&#10;Equipe développeur de l'entreprise Univers-Sol&#10;&#10;Contact : (+229) 62 773300&#10;&#10;Couriel : univers-sol@outlook.fr&#10;&#10;Adresse : Godomey, Bénin&#10;&#10;Chef de projet : Ibrahim ASSANI-BENTHO - ibentho@hotmail.fr&#10;&#10;Développeurs : - Hervé OLOU - olouherv@gmail.com&#10;                         - Rochdane SABI - rocdanesabi@gmail.com&#10;                         - Fréjus TOFFI - toufield@gmail.com" wrapText="true" />
+         </children>
+      </AnchorPane>
+  </children>
+</Pane>
